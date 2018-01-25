@@ -1,0 +1,27 @@
+﻿
+
+
+
+
+.action-container,
+.content-container {
+  position: relative;
+  overflow: auto;
+  min-height: 0;
+  padding: 16px;
+  margin: 8px 16px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.vertical-container,
+.horizontal-container {
+  min-height: 0 !important;
+}
+
+
+
+.upload-container {
+  height: 100%;
+  margin: -4px;
+}
