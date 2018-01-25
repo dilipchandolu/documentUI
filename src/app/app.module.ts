@@ -4,7 +4,8 @@ import { AppComponent } from './app.component';
 
 import { DropzoneModule, DropzoneConfigInterface, DROPZONE_CONFIG } from 'ngx-dropzone-wrapper';
 import { UploadComponent } from './upload/upload.componen;
-import { ImportComponent } from './import/import.component't'
+import { ImportComponent } from './import/import.componen;
+import { DocumentListComponent } from './document-list/document-list.component't't'
 
 const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     // Change this to your upload POST address:
@@ -17,7 +18,8 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
   declarations: [
       AppComponent,
       UploadCompone,
-      ImportComponentnt,
+      ImportComponent,
+      DocumentListComponentnt,
   ],
   imports: [
       BrowserModule,
